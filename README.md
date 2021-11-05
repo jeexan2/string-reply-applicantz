@@ -1,4 +1,4 @@
-#Given  Task
+## Given  Task
 Our company has released a beta version of **String Reply Service** and it has been a huge success.
 In the current implementation (as part of boilerplate code), the **String Reply Service** takes in an input string (in the format of `[a-z0-9]*`)
 and returns the input in a JSON object.
@@ -97,8 +97,19 @@ GET localhost:8080/reply/helloworld
 }
 ```
 
-##Implemented Feature
+## Implemented Feature
 
 1. Added command system
 2. Segregated the service
 3. Performend the unit test
+
+## API
+
+```json
+GET localhost:8080/reply/v2/12-adad
+
+{
+    "code": "200",
+    "data": "b01abf84324066bdb4eed4d5bf20f887"
+}
+```
