@@ -101,7 +101,7 @@ GET localhost:8080/reply/helloworld
 
 1. Added command system
 2. Segregated the service
-3. Performend the unit test
+3. Performed the unit test
 
 ## API
 
